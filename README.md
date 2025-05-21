@@ -34,6 +34,7 @@ Le modèle est entraîné de manière supervisée sur les données annotées. Il
 ## 📂 Arborescence du projet
 
 bash
+'''
 MarocExplorer/
 ├── data/               # Données d'entraînement
 │   ├── images/         # Dossier contenant les images urbaines
@@ -50,4 +51,5 @@ MarocExplorer/
 │   └── MarocExplorer_Modèle.ipynb
 │
 └── README.md           # Présentation du projet
+'''
 
