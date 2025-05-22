@@ -1,4 +1,5 @@
-# Maroc_Explorer
+# MaroxExplorer 
+
 MarocExplorer est un projet de prédiction géographique qui vise à estimer les coordonnées GPS (latitude, longitude) d’une image prise au Maroc, en exploitant à la fois son contenu visuel et les métadonnées associées à la ville correspondante (climat, architecture, altitude, type d’environnement, etc.).
 
 L’approche consiste à utiliser une architecture inspirée de GeoNet (ex. : GeoGuessr, IM2GPS, PlaNet) pour extraire des représentations visuelles profondes via un modèle CNN (ResNet18 ...). Ces features sont ensuite combinées avec les caractéristiques de la ville dans une branche tabulaire, suivie d’un module de régression fully connected pour prédire les coordonnées GPS. Ce cadre permet de comparer objectivement les performances avec ou sans contexte urbain, afin de mieux comprendre l’influence des données complémentaires sur la précision géographique.
@@ -33,7 +34,7 @@ Le modèle est entraîné de manière supervisée sur les données annotées. Il
 
 ## 📂 Arborescence du projet
 
-```bash
+```text
 MarocExplorer/
 ├── data/               # Données d'entraînement
 │   ├── images/         # Dossier contenant les images urbaines
@@ -41,14 +42,15 @@ MarocExplorer/
 │   └── city_features.csv  # Caractéristiques des villes (climat, altitude, etc.)
 │
 ├── model/              # Modèle
-│   ├── modèle.pth      # Architecture du modèle
+│   └── modèle.pth      # Architecture du modèle
 │
 ├── interface/          # Interface de visualisation ou démo
-│   
+│
 ├── notebooks/          # Analyses exploratoires ou tests en notebooks
-│   └── MarocExplorer_Data.ipynb
+│   ├── MarocExplorer_Data.ipynb
 │   └── MarocExplorer_Modèle.ipynb
 │
-└── README.md           # Présentation du projet
+└── README.md           # Présentation du projet
+
 
 
