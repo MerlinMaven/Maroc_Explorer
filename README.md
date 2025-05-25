@@ -1,4 +1,4 @@
-# MaroxExplorer 
+# MarocExplorer 
 
 MarocExplorer est un projet de prédiction géographique qui vise à estimer les coordonnées GPS (latitude, longitude) d’une image prise au Maroc, en exploitant à la fois son contenu visuel et les métadonnées associées à la ville correspondante (climat, architecture, altitude, type d’environnement, etc.).
 
@@ -59,5 +59,7 @@ MarocExplorer/
 
 Pour consulter la documentation complète du projet, veuillez visiter le site suivant :  
 [https://maroxexplorer.readthedocs.io/en/latest/index.html](https://maroxexplorer.readthedocs.io/en/latest/index.html)
+
+
 
 
