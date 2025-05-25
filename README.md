@@ -45,12 +45,19 @@ MarocExplorer/
 │   └── modèle.pth      # Architecture du modèle
 │
 ├── interface/          # Interface de visualisation ou démo
+|
+├── doc/                # Documentation 
 │
 ├── notebooks/          # Analyses exploratoires ou tests en notebooks
 │   ├── MarocExplorer_Data.ipynb
 │   └── MarocExplorer_Modèle.ipynb
+|   └── Utilisation_Evaluation.ipynb
 │
 └── README.md           # Présentation du projet
 
+## 📚 Documentation
+
+Pour consulter la documentation complète du projet, veuillez visiter le site suivant :  
+[https://maroxexplorer.readthedocs.io/en/latest/index.html](https://maroxexplorer.readthedocs.io/en/latest/index.html)
 
 
